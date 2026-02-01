@@ -1,0 +1,1 @@
+# codex-clicker-smoketest
