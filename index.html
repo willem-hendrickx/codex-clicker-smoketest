@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>10-Second Clicker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="game">
+      <header>
+        <h1>10-Second Clicker</h1>
+        <p class="subtitle">Click as many times as you can in 10 seconds.</p>
+      </header>
+
+      <section class="stats">
+        <div>
+          <span class="label">Time</span>
+          <span id="time">10.0</span>s
+        </div>
+        <div>
+          <span class="label">Score</span>
+          <span id="score">0</span>
+        </div>
+        <div>
+          <span class="label">Best</span>
+          <span id="best">0</span>
+        </div>
+      </section>
+
+      <button id="click-area" class="click-area" disabled>
+        Tap / Click!
+      </button>
+
+      <div class="controls">
+        <button id="start-btn" class="primary">Start</button>
+        <button id="restart-btn" class="secondary hidden">Restart</button>
+      </div>
+
+      <p id="message" class="message">Ready?</p>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
